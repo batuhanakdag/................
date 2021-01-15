@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bill Cipher's Kdqjpdq</title>
+        <script src="./hangman.js" type="text/javascript"></script>
+        <link href="./hangman.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="music">
+            <audio id="chiptune" controls autoplay="true" loop="true"> 
+                <source src="./gf chiptune.mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div id="page1">
+            <h1 class="bill-greeting">
+                HEY Selam.<br>
+                UZUN ZAMANDIR GÖRÜŞEMEDİK.
+            </h1>
+            <img class="bill bill-greet" src="https://i.pinimg.com/originals/06/bc/2e/06bc2e175dae90e921e6217ccc362d0c.gif" alt="Bill Cipher Cycle">
+            <h1 class="bill-greeting">
+                Oyun Oynamaya ne dersin?
+            </h1>
+            <div id="do_you_want_to_play">
+                <form id="yes-no">
+                    <button id="yes" type="button" value="YES">Elbette</button>
+                    <button id="no" type="button" value="NO">Aslağa</button>
+                </form>
+            </div>
+        </div>
+        <div id="page2">
+            <h1 class="header">Sonunda Hoşgeldin<br>Bill Cipher Kehanetine</h1>
+            <div class="bill-collector">
+                <div class="container">
+
+                </div>
+                <img class="bill" src="https://steamuserimages-a.akamaihd.net/ugc/254839631185163910/EECB7C56DF35203A3706B572272AB7BF97933A0A/" alt="Bill Cipher Cycle">
+                <div class="container">
+
+                </div>
+            </div>
+            <div class="center-text">
+                <p class="dialog bill-talk">BILL: Oyun basit.  <br>
+                    Bir kelimeyi kodladım ve onu çözmen gerekiyor. <br>
+                    Ancak, yaptığınız her yanlış tahmin için,<br>
+                   Biraz daha güçlü oluyorum.<br>
+                    YEDİ yanlış tahmin yaparsan,<br>
+                    senin boyutuna girecek kadar güçlü olacağımn<br>
+                    Sizin dünyanızda eğlenecek kadar güçlü olacağım.<br>
+                </p>
+                <p id="empty-word-display"></p>
+            </div>
+            <div class="character_pane">
+                    <img class="character" src="./Dipper-Journal-CROP.png" alt="Dipper Best">
+            </div>
+            <div class="reset-button">
+                <button id="refresh" onclick="window.location.reload();">RESET</button>
+            </div>
+            <div class="game-buttons">
+                <button id="press-to-talk1">Devam et</button>                
+            </div>
+
+        </div>
+        <div id="page3">
+                <h1 class="header">Sonunda Hoşgeldin<br>Bill Cipher Kehanetine</h1>
+                <div class="bill-collector">
+                    <div class="container">
+                    </div>
+                    <img class="bill" src="https://steamuserimages-a.akamaihd.net/ugc/254839631185163910/EECB7C56DF35203A3706B572272AB7BF97933A0A/" alt="Bill Cipher Cycle">
+                    <div class="container">
+                        </div>
+                    </div>
+                    <div>
+                        <p class="dialog dipper-talk">DIPPER: kazanırsam ne elde ederim?<br>
+                        </p>
+                    <p id="empty-word-display"></p>
+                </div>
+                <div class="character_pane">
+                        <img class="character" src="./Dipper-Panicked-CROP.png" alt="Dipper Upset">
+                </div>
+                <div class="reset-button">
+                    <button id="refresh" onclick="window.location.reload();">RESET</button>
+                </div>
+                <div class="game-buttons">
+                    <button id="press-to-talk2">Devam et</button>
+                </div>
+            </div>
+            <div id="page4">
+                    <h1 class="header">Sonunda Hoşgeldin<br>Bill Cipher Kehanetine</h1>
+                    <div class="bill-collector">
+                        <div class="container">
+                        </div>
+                        <img class="bill" src="https://64.media.tumblr.com/1cd3fde6f49a3205fda7e3f172108206/tumblr_mrptvpdMM71spv41ko1_1280.gif" alt="Bill Cipher Cycle">
+                        <div class="container">                                
+                            </div>
+                        </div>
+                        <div>
+                            <p class="dialog bill-talk">BILL: Sonsuza Kadar Size Dokunmayacağım!<br>
+                                BUNA İNANABİLİRSİN ÇAM AĞACI!<br>
+                            </p>
+                        <p id="empty-word-display"></p>
+                    </div>
+                    <div class="character_pane">
+                            <img class="character" src="./Dipper-worried.png" alt="Dipper Worried">
+                    </div>
+                    <div class="reset-button">
+                        <button id="refresh" onclick="window.location.reload();">RESET</button>
+                    </div>
+                    <div class="game-buttons">
+                        <button id="press-to-talk3">BAŞLA</button>
+                    </div>
+                </div>
+                <div id="page5">
+                        <h1 class="header">Sonunda Hoşgeldin<br>Bill Cipher Kehanetine</h1>
+                        <div class="bill-collector">
+                            <div class="container">
+                                    <img class="energy" id="energy3" src="https://media2.giphy.com/media/3oEhmP1i8wzdgx2vrW/giphy.gif">
+                                    <img class="energy" id="energy2" src="https://media2.giphy.com/media/3oEhmP1i8wzdgx2vrW/giphy.gif">
+                                    <img class="energy" id="energy1" src="https://media2.giphy.com/media/3oEhmP1i8wzdgx2vrW/giphy.gif">
+                            </div>
+                            <img class="bill" src="https://64.media.tumblr.com/1cd3fde6f49a3205fda7e3f172108206/tumblr_mrptvpdMM71spv41ko1_1280.gif" alt="Bill Cipher Cycle">
+                            <div class="container">
+                                    <img class="energy" id="energy6" src="https://media2.giphy.com/media/3oEhmP1i8wzdgx2vrW/giphy.gif">
+                                    <img class="energy" id="energy5" src="https://media2.giphy.com/media/3oEhmP1i8wzdgx2vrW/giphy.gif">
+                                    <img class="energy" id="energy4" src="https://media2.giphy.com/media/3oEhmP1i8wzdgx2vrW/giphy.gif">
+                            </div>
+                        </div>
+                        <div class="gameplay-text">
+                            <h2 id="encoded-word"></h2>
+                            <h2 id="dash-holder"></h2>
+                            <h2 id="user-guesses"></h2>
+                        </div>
+                        <div class="character_pane">
+                            <img class="character" id="final-dipper" src="./Dipper-Journal-CROP.png" alt="Dipper Start">
+                        </div>
+                        <div class="reset-button">
+                            <button id="refresh" onclick="window.location.reload();">RESET</button>
+                        </div>
+                        <div class="game-buttons">
+                            <form id="form4">
+                                <p>Bir harf Seçin: </p><input type="text" id="user-input" autocomplete="off" autofocus>
+                                <button id="submit">Gönder</button>
+                                <p id="player-choice"></p>
+                            </form>               
+                        </div>
+                    </div>
+            <div id="you-win">
+                    <p class="finish-text">SEN KAZANDIN ÇAM AĞACII OLAMAZZ!!!</p>
+                    <div class="bill-collector">
+                        <div class="container">
+                        </div>
+                        <img class="bill bill-lose" src="https://steamuserimages-a.akamaihd.net/ugc/269465930029069958/CFCAB8F231974280CEDB014A9869812D77A77434/" alt="Bill Cipher Cycle">
+                        <div class="container">
+                        </div>
+                        <div class="spacer">
+                        </div>
+                    </div>
+                    <button id="refresh" onclick="window.location.reload();">TEKRAR OYNA</button>
+            </div>
+        <div id="you-lose">
+            <p class="finish-text">YOU LOSE!!!</p>
+            <div class="bill-collector">
+                <img class="bill-wins" src="https://i.redd.it/zquddsqjeprz.gif" alt="Weirdmageddon">
+            </div>
+            <p class="correct-text" id="correct-answer"></p>
+            <button id="refresh" onclick="window.location.reload();">PLAY AGAIN!</button>
+        </div>
+    </body>
+</html>
